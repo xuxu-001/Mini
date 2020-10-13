@@ -1,0 +1,75 @@
+{
+  "uid" : "73fad9ffd9d41efc",
+  "name" : "test_query_order",
+  "fullName" : "scripts.testOrder.TestOrderApi#test_query_order",
+  "historyId" : "1c49826f8ac9a63523112cb6b3894d94",
+  "time" : {
+    "start" : 1602555523463,
+    "stop" : 1602555523542,
+    "duration" : 79
+  },
+  "description" : "查询订单",
+  "descriptionHtml" : "<p>查询订单</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "查询订单",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2ecf56e474942210",
+      "name" : "log",
+      "source" : "2ecf56e474942210.txt",
+      "type" : "text/plain",
+      "size" : 54
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "testOrder"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestOrderApi"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-7793Q7A"
+  }, {
+    "name" : "thread",
+    "value" : "19408-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.testOrder"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "73fad9ffd9d41efc.json",
+  "parameterValues" : [ ]
+}

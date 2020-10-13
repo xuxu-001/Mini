@@ -1,0 +1,197 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "scripts",
+    "children" : [ {
+      "name" : "testHome",
+      "children" : [ {
+        "name" : "TestHomeApi",
+        "children" : [ {
+          "name" : "test_home_api",
+          "uid" : "ffad3c972c995a3d",
+          "parentUid" : "8ee4caf4ef139a22217d778ead9ad66f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1602555522897,
+            "stop" : 1602555523023,
+            "duration" : 126
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_theme_api",
+          "uid" : "215c701213ddaa6f",
+          "parentUid" : "8ee4caf4ef139a22217d778ead9ad66f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1602555523031,
+            "stop" : 1602555523135,
+            "duration" : 104
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_recent_product_api",
+          "uid" : "a605dca3c19c9a70",
+          "parentUid" : "8ee4caf4ef139a22217d778ead9ad66f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1602555523141,
+            "stop" : 1602555523215,
+            "duration" : 74
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "8ee4caf4ef139a22217d778ead9ad66f"
+      } ],
+      "uid" : "aecb525472537abece4eb95deaa3dd20"
+    }, {
+      "name" : "testOrder",
+      "children" : [ {
+        "name" : "TestOrderApi",
+        "children" : [ {
+          "name" : "test_order_list",
+          "uid" : "e850c513291de097",
+          "parentUid" : "ab15d65957e194ec093cd2982a008cff",
+          "status" : "passed",
+          "time" : {
+            "start" : 1602555523223,
+            "stop" : 1602555523317,
+            "duration" : 94
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_order_api",
+          "uid" : "c0def75668d103c3",
+          "parentUid" : "ab15d65957e194ec093cd2982a008cff",
+          "status" : "passed",
+          "time" : {
+            "start" : 1602555523323,
+            "stop" : 1602555523458,
+            "duration" : 135
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_query_order",
+          "uid" : "73fad9ffd9d41efc",
+          "parentUid" : "ab15d65957e194ec093cd2982a008cff",
+          "status" : "passed",
+          "time" : {
+            "start" : 1602555523463,
+            "stop" : 1602555523542,
+            "duration" : 79
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "ab15d65957e194ec093cd2982a008cff"
+      } ],
+      "uid" : "dd8ae6c0a8dc837ae88deaeceebb5070"
+    }, {
+      "name" : "testProduct",
+      "children" : [ {
+        "name" : "TestProductApi",
+        "children" : [ {
+          "name" : "test_product_classify_api",
+          "uid" : "5eb3d9206434562d",
+          "parentUid" : "810c97f20239704716a8ef8dbf23eadf",
+          "status" : "passed",
+          "time" : {
+            "start" : 1602555523547,
+            "stop" : 1602555523670,
+            "duration" : 123
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_classify_product_api",
+          "uid" : "ef2de265a8f1c4be",
+          "parentUid" : "810c97f20239704716a8ef8dbf23eadf",
+          "status" : "passed",
+          "time" : {
+            "start" : 1602555523677,
+            "stop" : 1602555523763,
+            "duration" : 86
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_product_detail_api",
+          "uid" : "d751673e387f16e2",
+          "parentUid" : "810c97f20239704716a8ef8dbf23eadf",
+          "status" : "passed",
+          "time" : {
+            "start" : 1602555523768,
+            "stop" : 1602555523880,
+            "duration" : 112
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "810c97f20239704716a8ef8dbf23eadf"
+      } ],
+      "uid" : "f70ad7063883e277196f7310ff557e3e"
+    }, {
+      "name" : "testUser",
+      "children" : [ {
+        "name" : "TestUserApi",
+        "children" : [ {
+          "name" : "test_get_token",
+          "uid" : "e5c95a41df182af4",
+          "parentUid" : "35ca4ecdd3bc4dd3536a268093e01a2d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1602555523887,
+            "stop" : 1602555524099,
+            "duration" : 212
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_verify_api",
+          "uid" : "31db46e05aea8b05",
+          "parentUid" : "35ca4ecdd3bc4dd3536a268093e01a2d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1602555524105,
+            "stop" : 1602555524144,
+            "duration" : 39
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_user_address_api",
+          "uid" : "8479f22b0b56e507",
+          "parentUid" : "35ca4ecdd3bc4dd3536a268093e01a2d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1602555524149,
+            "stop" : 1602555524230,
+            "duration" : 81
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "35ca4ecdd3bc4dd3536a268093e01a2d"
+      } ],
+      "uid" : "6f673f2afc706b9fb72ef83d3c4ab29d"
+    } ],
+    "uid" : "af586ea5ffb1b57fad0f98a55a6d147c"
+  } ]
+}
