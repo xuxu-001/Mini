@@ -1,4 +1,4 @@
-import utils,logging
+import utils, logging
 from Api.apiFactory import ApiFactory
 
 
@@ -49,6 +49,9 @@ class TestOrderApi:
         order_id = 115
         # 响应对象
         res = ApiFactory.get_order_api().query_order_api(order_id)
+        # 打印 请求地址 打印请求参数 打印请求响应数据
+        logging.info("请求地址：{}".format(res.url))
+        logging.info(f"响应数据：{res.json()}")
 
         # 断言 状态码
         utils.common_assert_code(res)
